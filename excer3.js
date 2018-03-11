@@ -9,8 +9,8 @@ class Card {
   			return values[Math.floor(Math.random() * 15)];}
 	    			}
 
-	 toString() {
-  		return this.value + ' ' + this.colors;
+	toString() {
+  		return this.value + ' ' + this.colors;}
 		};
 
 
@@ -19,21 +19,21 @@ class Deck {
 	constructor(num) {
 		this._num = num;
 	}
-
-draw() {
-console.log(card.toString(new Card()))
-}
-
 deck() {
   	var cardlist = [];
 	for (var i = 1; i<= num; i++) 
     	cardlist = cardlist.push(card.toString(new Card()));
-    
+ 	
 }
+
+draw() {
+console.log(cardlist[Math.floor(Math.random() * (cardlist.length+1)])}
   
 }
 
 
 const card = card.toString(new Card());
 
-console.log(card);
+
+deck.deck()
+console.log(cardlist);
